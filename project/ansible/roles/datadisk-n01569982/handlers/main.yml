@@ -1,0 +1,2 @@
+- name: reload partition table
+  ansible.builtin.command: partprobe /dev/sdc

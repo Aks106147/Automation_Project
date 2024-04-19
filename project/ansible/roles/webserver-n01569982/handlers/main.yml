@@ -1,0 +1,10 @@
+---
+# handlers file for webserver-n01569982
+- name: Update package cache
+  ansible.builtin.apt:
+    update_cache: yes
+
+- name: Install Apache web server
+  ansible.builtin.package:
+    name: httpd
+    state: present

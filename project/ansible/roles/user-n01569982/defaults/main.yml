@@ -1,0 +1,8 @@
+# roles/user-n01619534/defaults/main.yml
+users:
+  - name: user100
+    groups: ["cloudadmins", "wheel"]
+  - name: user200
+    groups: ["cloudadmins", "wheel"]
+  - name: user300
+    groups: ["cloudadmins", "wheel"]
